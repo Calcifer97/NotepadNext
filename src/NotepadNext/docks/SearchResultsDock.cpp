@@ -45,6 +45,9 @@ SearchResultsDock::SearchResultsDock(QWidget *parent) :
     ui->treeWidget->setFont(font);
 #endif
 
+    QFont font("Noto Sans Mono", 10);
+    ui->treeWidget->setFont(font);
+
     // Close the results when escape is pressed
     new QShortcut(QKeySequence::Cancel, this, this, &SearchResultsDock::close, Qt::WidgetWithChildrenShortcut);
 

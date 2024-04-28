@@ -229,8 +229,8 @@ void EditorManager::setupEditor(ScintillaNext *editor)
 
     editor->styleSetFore(STYLE_DEFAULT, 0x000000);
     editor->styleSetBack(STYLE_DEFAULT, 0xFFFFFF);
-    editor->styleSetSize(STYLE_DEFAULT, DefaultFontSize());
-    editor->styleSetFont(STYLE_DEFAULT, "Courier New");
+    editor->styleSetSize(STYLE_DEFAULT, 11);
+    editor->styleSetFont(STYLE_DEFAULT, "Noto Sans Mono");
 
     editor->styleClearAll();
 
